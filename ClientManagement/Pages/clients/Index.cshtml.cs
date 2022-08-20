@@ -32,8 +32,6 @@ namespace ClientManagement.Pages.Clients
                                 clientInfo.created_at = reader.GetDateTime(5).ToString();
 
                                 clientsList.Add(clientInfo);
-
-                                Console.WriteLine("Collection : " + clientsList[0]);
                             }
                         }
                     }
